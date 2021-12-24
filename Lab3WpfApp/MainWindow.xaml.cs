@@ -69,7 +69,7 @@ namespace Lab3WpfApp
             if (!isUnderline)
                 text.TextDecorations = TextDecorations.Underline;
             else
-                text.TextDecorations = TextDecorations.Baseline;
+                text.TextDecorations = null;
             isUnderline = !isUnderline;
         }
 
